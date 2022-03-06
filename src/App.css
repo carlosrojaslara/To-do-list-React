@@ -1,0 +1,93 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+.app {
+    background: linear-gradient(to right bottom, #d4d3d1, #3d3226);
+    width: 100%;
+    min-height:100vh;
+    display: flex;
+    flex-direction: column;    
+    justify-content:flex-start;
+    align-items:center; 
+}
+
+.header{
+    margin-bottom: 30px;
+    font-family: 'Varela', sans-serif;   
+    font-size: large;
+}
+
+ul{
+    list-style: none;
+
+}
+
+.todo-list{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.todo-list > p {
+    /* background-color: rgb(231, 123, 123); */
+    border-radius: 6px;
+    height: 18px;
+    /* width: auto; */
+}
+
+.todo-icon{
+    margin: 5px;
+    cursor:pointer;
+    border-radius: 10px;
+    height: 25px;
+    width: 25px;
+    
+}
+
+.form{
+
+    margin-bottom:45px;
+}
+
+.formButton{
+    cursor:pointer;
+    background-color: rgb(189, 187, 187);
+    border-radius: 10px;
+    width: 27px;
+    height:27px;
+    color: rgb(85, 84, 84);
+}
+
+.formInput{
+    margin:20px;
+    background-color: rgb(161, 161, 161);
+    border-radius: 11px;
+    height: 30px;
+    width: 400px;
+}
+
+.header-linea{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    width: 430px;
+    background-color: grey;
+}
+
+.brList{
+    margin-top: 80px;
+    width: 430px;
+    
+}
+
+.todo-text{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.todo-icons{
+    display: flex; 
+    margin-left: 100px;
+}
